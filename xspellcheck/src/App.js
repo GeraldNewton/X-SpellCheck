@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import axios from "axios";
 
 function App() {
   const [state, setState] = useState({ inputText: "", suggestedText: "" });
